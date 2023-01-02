@@ -273,7 +273,11 @@ footer > div:nth-child(3) > img {
 .transform {
    display: flex;
    flex-direction: row-reverse;
+   max-height: 47rem;
+}
+.transform img, .stand-out img {
    height: 47rem;
+   max-height: 47rem;
 }
 .transform > div {
    width: 50%;
